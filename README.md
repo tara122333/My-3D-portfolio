@@ -1,2 +1,2 @@
-# This is Made by Tara Chand Kumawat (MERN Stack Development)
+# This is Made by Tara Chand Kumawat (MERN Stack Developer)
 
