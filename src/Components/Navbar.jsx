@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-// import { navLinks } from "../constants";
-
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -46,7 +44,7 @@ const Navbar = () => {
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+      <div className='w-full flex gap-10 items-center max-w-7xl mx-auto'>
         <Link
           to='/'
           className='flex items-center gap-2'
@@ -56,7 +54,7 @@ const Navbar = () => {
           }}
         >
           <img src="https://yt3.googleusercontent.com/ygl2Z8enlHOjF0jy86ZGvxiudkz27hGnLToUpXZNtus9T8gsBywcfOFkH_N6YiAch2_gB1muJlg=s900-c-k-c0x00ffffff-no-rj" alt='logo' className='w-9 h-9 object-contain rounded-full' />
-          <p className='text-purple-400 text-[18px] font-bold cursor-pointer flex '>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Tara &nbsp;
             <span className='sm:block hidden'> |  &nbsp; Portfolio</span>
           </p>
