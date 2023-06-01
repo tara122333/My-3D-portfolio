@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -13,10 +14,11 @@ function App() {
           <Tech />
           <Works />
           <Feedbacks />
-          <div className='relative z-0'>
+          */}
+          <div className='relative z-0 h-96'>
             <Contact />
-            <StarsCanvas />
-          </div> */}
+            {/* <StarsCanvas /> */}
+          </div> 
         </div>
     </>
   );
