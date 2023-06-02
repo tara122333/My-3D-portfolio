@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import EarthCanvas from './canvas/EarthCanvas';
 import { motion } from "framer-motion";
 import { slideIn } from '../utils/motion';
@@ -8,7 +8,7 @@ import { SectionWrapper } from "../hoc";
 
 const Contact = () => {
 
-    const [loading, setLoading] = useState(false);
+    // const [loading, setLoading] = useState(false);
 
 
   return (
@@ -65,7 +65,7 @@ const Contact = () => {
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
-            {loading ? "Sending..." : "Send"}
+            {/* {loading ? "Sending..." : "Send"} */}
           </button>
         </form>
       </motion.div>

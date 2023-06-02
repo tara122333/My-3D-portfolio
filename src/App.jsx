@@ -1,5 +1,7 @@
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
+import Works from "./components/Works";
+import StarsCanvas from "./components/canvas/StartCanvas";
 
 function App() {
   return (
@@ -12,12 +14,13 @@ function App() {
           {/* <About />
           <Experience />
           <Tech />
-          <Works />
-          <Feedbacks />
           */}
+          <Works />
+          {/* <Feedbacks /> */}
+          
           <div className='relative z-0 h-96'>
             <Contact />
-            {/* <StarsCanvas /> */}
+            <StarsCanvas />
           </div> 
         </div>
     </>
