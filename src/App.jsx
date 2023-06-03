@@ -15,10 +15,13 @@ function App() {
           <Experience />
           <Tech />
           */}
+          <div className="h-screen w-full bg-secondary">
+            sdjbsbfjks
+          </div>
           <Works />
           {/* <Feedbacks /> */}
           
-          <div className='relative z-0 h-96'>
+          <div className='relative z-0'>
             <Contact />
             <StarsCanvas />
           </div> 

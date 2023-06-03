@@ -38,17 +38,17 @@ const ProjectCard = ({
                 className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
               >
                 <img
-                //   src={github}
+                  src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
                   alt='source code'
-                  className='w-1/2 h-1/2 object-contain'
+                  className='w-3/4 h-3/4 object-contain rounded-full'
                 />
               </div>
             </div>
           </div>
   
           <div className='mt-5'>
-            <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-            <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+            <h3 className='text-text-green font-bold text-[24px]'>{name}</h3>
+            <p className='mt-2 text-[14px]'>{description}</p>
           </div>
   
           <div className='mt-4 flex flex-wrap gap-2'>
@@ -88,7 +88,7 @@ const Works = () => {
               color: "pink-text-gradient",
             },
           ],
-          image: "carrent",
+          image: "https://tara122333.github.io/tara-portfolio-MERN/static/media/resume.c20d7d57acb441d8cffb.png",
           source_code_link: "https://github.com/",
         },
         {
@@ -109,7 +109,7 @@ const Works = () => {
               color: "pink-text-gradient",
             },
           ],
-          image: "jobit",
+          image: "https://tara122333.github.io/tara-portfolio-MERN/static/media/resume.c20d7d57acb441d8cffb.png",
           source_code_link: "https://github.com/",
         },
         {
@@ -130,7 +130,7 @@ const Works = () => {
               color: "pink-text-gradient",
             },
           ],
-          image: "",
+          image: "https://tara122333.github.io/tara-portfolio-MERN/static/media/resume.c20d7d57acb441d8cffb.png",
           source_code_link: "https://github.com/",
         },
       ];
